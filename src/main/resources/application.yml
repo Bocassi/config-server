@@ -8,5 +8,11 @@ spring:
       server:
         git:
           uri: https://github.com/Bocassi/config-repo.git
-          username: Bocassi
-          password: i2vqqYUL.
+          clone-on-start: true
+          default-label: develop
+
+  profiles:
+    active:
+
+  application:
+    name: config-server
